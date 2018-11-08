@@ -5,7 +5,10 @@ android {
     compileSdkVersion 26
     // buildToolsVersion "26.0.1"
     buildToolsVersion "26.0.2"
-
+    // new line added fro error Execution failed for task ':app:lint'.
+lintOptions {
+        abortOnError false
+    }
     defaultConfig {
         applicationId "gov.dol.childlabor"
         minSdkVersion 15

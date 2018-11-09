@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-        google() // added this
+        // google() // added this
         jcenter()
     }
     dependencies {
@@ -16,7 +16,7 @@ buildscript {
 
 allprojects {
     repositories {
-        google() // added here as well
+     //   google() // added here as well
         jcenter()
     }
 }
